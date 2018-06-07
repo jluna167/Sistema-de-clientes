@@ -1,0 +1,97 @@
+<link href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet">
+
+<section id="testimonial">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <div class="row text-center">
+          <h1>
+          <span class="ion-minus"></span>
+          Elija una acción
+          <span class="ion-minus"></span>
+          </h1>
+          <p></p><br>
+        </div>
+        <div class="row service-icons">
+
+          <div class="col-md-6 col-xs-12  text-center">
+            <button (click)="abrirGestionClientes()">
+              <div class="square-feature">
+                <span class="fa fa-address-card"></span>
+              </div>
+              <h2>Gestión de clientes</h2>
+              <p>Alta, baja, modificación y consultas de clientes</p>
+            </button>
+          </div>
+
+          <div class="col-md-6 col-xs-12 text-center">
+            <button (click)="abrirGestionVentas()">
+              <div class="square-feature">
+                <span class="fa fa-bar-chart"></span>
+              </div>
+              <h2>Gestión de ventas</h2>
+              <p>Alta, baja, modificación y consultas compras</p>
+            </button>
+          </div>
+        </div>
+        <div class="row service-icons">
+          <div class="col-md-6 col-xs-12 text-center">
+            <button (click)="abrirGestionStock()">
+              <div class="square-feature text-center">
+                <span class="fa fa-truck"></span>
+              </div>
+              <h2>Gestión de stock</h2>
+              <p>Alta, baja y modificación de artículos. Consultas de stock</p>
+            </button>
+          </div>
+
+          <div class="col-md-6 col-xs-12 text-center">
+            <button (click)="abrirConfiguracion()">
+              <div class="square-feature text-center">
+                <span class="fa fa-cogs"></span>
+              </div>
+              <h2>Configuración</h2>
+              <p>Gestión de su cuenta.</p>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 text-center">
+        <h2>
+          <span class="ion-minus"></span>
+          Eventos del día
+          <span class="ion-minus"></span>
+        </h2>
+
+        <div id="slider" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#slider" data-slide-to="0" class="active"></li>
+            <li data-target="#slider" data-slide-to="1"></li>
+            <li data-target="#slider" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner" >
+            <div class="item active">
+              <p class="comment-box" style="margin: 0px;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis  dis parturient montes, nascetur ridiculus </p>
+              <p class="after"></p>
+              <img src="http://via.placeholder.com/350x300">
+              <h5>Cliente 1</h5>
+            </div>
+            <div class="item">
+              <p class="comment-box" style="margin: 0px;">Información cliente 2</p>
+              <p class="after"></p>
+              <img src="http://via.placeholder.com/350x300">
+              <h5>Cliente 2</h5>
+            </div>
+            <div class="item">
+              <p class="comment-box" style="margin: 0px;">Información cliente 3</p>
+              <p class="after"></p>
+              <img src="http://via.placeholder.com/350x300">
+              <h5>Cliente 3</h5>
+            </div>
+          </div>  <!-- carousel-inner -->
+        </div>  <!-- carousel slide -->
+      </div>
+    </div>
+  </div>
+</section>
